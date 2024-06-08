@@ -1,0 +1,345 @@
+body{
+	background-color: #e6e9e8;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+button{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.body-div{
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+	justify-content: center;
+	background-color: #e6e9e8;
+}
+
+.body-div .body-in{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.body-div .body-in .first-section{
+	width: 20%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	border-radius: 8px;
+	background-color: #fff;
+}
+
+.body-div .body-in .first-section .inner{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	gap: 13px;
+}
+
+.body-div .body-in .first-section .inner h3{
+	margin: 0px;
+	padding: 0px;
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+.body-div .body-in .first-section .inner .icon-txt{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.body-div .body-in .first-section .inner .icon-txt ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.body-div .body-in .first-section .inner .icon-txt ul li{
+	list-style: none;
+	display: flex;
+	height: 50px;
+	align-items: center;
+	gap: 5px;
+	border-bottom: black 1px dashed;
+	font-size: 14px;
+}
+
+.body-div .body-in .first-section .inner .icon-txt li:hover{
+	color: aquamarine;
+	border-bottom: #c7c5c5 1px solid;
+}	
+
+.body-div .body-in .first-section .inner .icon-txt .top{
+	border-top: #747474 1px dashed;
+} 
+
+
+
+/* ------wallet breakdown------ */
+.body-div .body-in .second-section{
+	width: 78%;
+	min-height: 150px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.body-div .body-in .second-section .profile{
+	width: 100%;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 4px;
+	gap: 6px;
+	
+}
+
+.body-div .body-in .second-section .profile .con-in{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+
+}
+
+.body-div .body-in .second-section .profile .con-in .log-out{
+	width: 95%;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.body-div .body-in .second-section .profile .con-in p{
+	color: #1ebd09;
+	font-size: 11px;
+}
+
+.body-div .body-in .second-section .profile .con-in button{
+	width: 65px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 25px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #f30505;
+	border: none;
+	border-radius: 2px;
+	gap: 3px;
+}
+
+.body-div .body-in .second-section .profile .con-in button:hover{
+	background-color: #c00b0b;
+}
+
+.body-div .body-in .second-section .profile .con-in button p{
+	color: #fff;
+	font-size: 10px;
+}
+
+.body-div .body-in .second-section .profile .con-in .pic-txt{
+	width: 95%;
+	height: 60px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 10px;
+}
+
+.body-div .body-in .second-section .profile .con-in .pic{
+	width: 60px;
+	height: 60px;
+	border-radius: 4px;
+}
+
+.body-div .body-in .second-section .profile .con-in .pic img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.body-div .body-in .second-section .profile .con-in .txt{
+	width: 90%;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.body-div .body-in .second-section .profile .con-in .txt p{
+	color: #747474;
+	font-size: 12px;
+}
+
+.body-div .body-in .second-section .profile .con-in .txt h2{
+	margin: 0px;
+	padding: 0px;
+	font-size: 25px;
+}
+
+.body-div .body-in .second-section .wallet-breakdown{
+	width: 100%;
+	min-height: 150px;
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div{
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15px;
+	gap: 4px;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .wallet-btn{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .wallet-btn p{
+	color: #1ebd09;
+	font-size: 11px;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .wallet-btn button{
+	width: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 25px;
+	font-size: 11px;
+	color: #f3f1f1;
+	background-color: #1ebd09;
+	border: none;
+	border-radius: 2px;
+	gap: 3px;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .wallet-btn button:hover{
+	background-color: #178a07;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .wallet-btn button p{
+	font-size: 10px;
+	color: #fff;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .wallet-btn .view{
+	width: 60px;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .amount{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	gap: 12px;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .amount .inner{
+	width: 30%;
+	height: 40px;
+	display: flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 4px;
+	border-right: 1px  #cccaca solid;
+
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .amount .no-border{
+	border-right: none;
+
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .amount .inner h3{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .amount .inner p{	
+	color: #000;
+	font-size: 10px;
+}
+
+.body-div .body-in .second-section .wallet-breakdown .inner-div .table-div{	
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.table-div table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	font-size: 11px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: none;
+  }
+
+  @media all and (max-width:800px) {
+	.body-div .body-in{
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+	.body-div .body-in .first-section{
+		width: 100%;
+	}
+	.body-div .body-in .second-section{
+		width: 100%;
+	}
+
+}
+
+@media all and (max-width:620px) {
+	.table-div table {
+		font-size: 6px;
+	  }
+	
+
+}
